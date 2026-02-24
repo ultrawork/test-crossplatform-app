@@ -46,7 +46,7 @@ struct AboutView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Close") {
+                    Button("Back") {
                         dismiss()
                     }
                 }
