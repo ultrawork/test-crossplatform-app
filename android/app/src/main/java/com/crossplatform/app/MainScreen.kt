@@ -57,7 +57,7 @@ fun MainScreen(onInfoClick: () -> Unit) {
                     IconButton(onClick = onInfoClick) {
                         Icon(
                             imageVector = Icons.Filled.Info,
-                            contentDescription = "About"
+                            contentDescription = "Info"
                         )
                     }
                 },
